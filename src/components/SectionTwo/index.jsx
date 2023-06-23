@@ -46,8 +46,7 @@ export default function SectionTwo() {
 							<p>Actualizaciones</p>
 						</div>
 					</div>
-					<ButtonThree />
-					<p>Más Información →</p>
+					<ButtonThree texto="Solicita una prueba" />
 				</div>
 			</section>
 		</>

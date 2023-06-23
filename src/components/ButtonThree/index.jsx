@@ -1,10 +1,10 @@
 import styles from "./buttonThree.module.scss";
 
-export default function ButtonThree() {
+export default function ButtonThree(props) {
 	return (
 		<>
-			<button className={styles.btn}>
-				<a href="#">Solicita una prueba</a>
+			<button type="submit" className={styles.btn}>
+				<a href="#">{props.texto}</a>
 			</button>
 		</>
 	);
