@@ -1,7 +1,7 @@
-import styles from "./navbar.module.scss";
-import logo from "../../../public/assets/logo.png";
 import Image from "next/image";
+import logo from "../../../public/assets/logo.png";
 import ButtonOne from "../ButtonOne";
+import styles from "./navbar.module.scss";
 
 export default function NavBar() {
 	return (

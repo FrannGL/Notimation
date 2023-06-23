@@ -1,7 +1,7 @@
-import ButtonTwo from "../ButtonTwo";
-import styles from "./section-one.module.scss";
 import Image from "next/image";
 import banner from "../../../public/assets/Banner Img.png";
+import ButtonTwo from "../ButtonTwo";
+import styles from "./section-one.module.scss";
 
 export default function SectionOne() {
 	return (
@@ -17,7 +17,7 @@ export default function SectionOne() {
 							Aumentá la eficiencia y mejora la experiencia de tus clientes con
 							Notimation.
 						</p>
-						<ButtonTwo />
+						<ButtonTwo texto="Conocer más ↓" />
 					</div>
 				</div>
 				<div className={styles.boxRightContainer}>
