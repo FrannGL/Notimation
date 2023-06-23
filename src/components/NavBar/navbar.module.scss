@@ -1,0 +1,14 @@
+@import "@/app/theme";
+
+.header {
+	width: 1396px;
+	margin: 10px auto;
+	height: auto;
+	.nav {
+		// width: 1396px;
+		// height: 107px;
+		// margin: 10px auto;
+		border-radius: 30px;
+		background: $backgroundColor;
+	}
+}
