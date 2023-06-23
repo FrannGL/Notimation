@@ -1,0 +1,42 @@
+@import "@/app/theme";
+
+.container {
+	width: 100%;
+	height: 600px;
+	display: flex;
+	font-family: "Barlow", sans-serif;
+	.boxLeftContainer {
+		width: 60%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		.boxLeftItem {
+			display: flex;
+			justify-content: center;
+			align-items: start;
+			flex-direction: column;
+			gap: 20px;
+			width: 75%;
+			height: auto;
+			.title {
+				font-size: 48px;
+				font-weight: 400;
+				text-transform: uppercase;
+				.span {
+					font-weight: 700;
+					font-size: 64px;
+					background: $backgroundColor;
+					background-clip: text;
+					-webkit-text-fill-color: transparent;
+				}
+			}
+			.paragraph {
+				font-size: 23px;
+				font-weight: 40px;
+			}
+		}
+	}
+	.boxRightContainer {
+		width: 40%;
+	}
+}

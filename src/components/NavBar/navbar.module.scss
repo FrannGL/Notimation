@@ -2,13 +2,30 @@
 
 .header {
 	width: 1396px;
+	height: 107px;
 	margin: 10px auto;
-	height: auto;
+	background: $backgroundColor;
+	border-radius: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0px 100px;
 	.nav {
-		// width: 1396px;
-		// height: 107px;
-		// margin: 10px auto;
-		border-radius: 30px;
-		background: $backgroundColor;
+		width: 1396px;
+		height: 107px;
+		margin: 10px auto;
+		.listContainer {
+			width: 100%;
+			height: 100%;
+			font-weight: 600;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			list-style: none;
+			color: $text;
+			.listItem {
+				padding: 25px;
+			}
+		}
 	}
 }

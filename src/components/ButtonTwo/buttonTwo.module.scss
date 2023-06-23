@@ -1,0 +1,13 @@
+@import "@/app/theme";
+
+.btn {
+	width: 183px;
+	height: 41px;
+	background-color: #ff5722;
+	color: $text;
+	font-family: "Barlow", sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	border-radius: 10px 10px 10px 10px;
+	border: 0;
+}
