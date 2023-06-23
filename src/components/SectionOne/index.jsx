@@ -21,7 +21,7 @@ export default function SectionOne() {
 					</div>
 				</div>
 				<div className={styles.boxRightContainer}>
-					<Image src={banner} alt="banner" width={600} />
+					<Image src={banner} alt="banner" width={600} className={styles.img} />
 				</div>
 			</section>
 		</>

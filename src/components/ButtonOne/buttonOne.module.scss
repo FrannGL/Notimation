@@ -8,3 +8,15 @@
 	border: 0;
 	padding: 10px;
 }
+
+@media (min-width: 200px) and (max-width: 699px) {
+	.btn {
+		font-size: 12px;
+	}
+}
+
+@media (min-width: 700px) and (max-width: 1395px) {
+	.btn {
+		font-size: 14px;
+	}
+}

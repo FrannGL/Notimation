@@ -10,10 +10,18 @@ export default function NavBar() {
 				<Image src={logo} alt="logo" />
 				<nav className={styles.nav}>
 					<ul className={styles.listContainer}>
-						<li className={styles.listItem}>Power Campaings</li>
-						<li className={styles.listItem}>Agents</li>
-						<li className={styles.listItem}>Pricing</li>
-						<li className={styles.listItem}>Sobre Nosotros</li>
+						<li className={styles.listItem}>
+							<a href="$">Power Campaings</a>
+						</li>
+						<li className={styles.listItem}>
+							<a href="#">Agents</a>
+						</li>
+						<li className={styles.listItem}>
+							<a href="#">Pricing</a>
+						</li>
+						<li className={styles.listItem}>
+							<a href="#">Sobre Nosotros</a>
+						</li>
 						<ButtonOne />
 					</ul>
 				</nav>

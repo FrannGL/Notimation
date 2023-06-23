@@ -23,3 +23,12 @@
 		}
 	}
 }
+
+@media (min-width: 200px) and (max-width: 699px) {
+	.container {
+		width: 100vw;
+		.infoContainer {
+			width: 70vw;
+		}
+	}
+}

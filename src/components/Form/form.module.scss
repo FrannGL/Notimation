@@ -20,5 +20,21 @@
 		padding: 10px;
 		background-color: $sweet-blue;
 		border: 2px solid white;
+		color: $text;
+		&:focus {
+			outline: none;
+		}
+	}
+}
+
+@media (min-width: 200px) and (max-width: 699px) {
+	.form {
+		width: 100vw;
+		.formLabel {
+			width: 80vw;
+		}
+		.formInput {
+			width: 80vw;
+		}
 	}
 }

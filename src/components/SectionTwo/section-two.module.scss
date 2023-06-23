@@ -21,6 +21,7 @@
 			width: 1200px;
 			height: 180px;
 			@include flex(row, center, center);
+			flex-wrap: wrap;
 			gap: 10px;
 			.cardItem {
 				width: 183px;
@@ -39,6 +40,31 @@
 		}
 		a {
 			text-decoration: underline;
+		}
+	}
+}
+
+@media (min-width: 200px) and (max-width: 699px) {
+	.container {
+		.imageContainer {
+			width: 100vw;
+		}
+		.infoContainer {
+			gap: 10px;
+			.title {
+				font-size: 30px;
+			}
+			.cardContainer {
+				width: 100vw;
+				height: 320px;
+				.cardItem {
+					width: 125px;
+					height: 100px;
+					p {
+						font-size: 10px;
+					}
+				}
+			}
 		}
 	}
 }

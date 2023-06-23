@@ -4,6 +4,12 @@ $blue: #528dffcc;
 $light-blue: #528dff;
 $sweet-blue: #528dff4d;
 $orange: #ff5722;
+$breakpoints: (
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px,
+);
 
 @mixin flex($direction, $justify, $align) {
 	display: flex;
