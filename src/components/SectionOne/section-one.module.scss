@@ -7,14 +7,9 @@
 	font-family: "Barlow", sans-serif;
 	.boxLeftContainer {
 		width: 60%;
-		display: flex;
-		justify-content: center;
-		align-items: center;
+		@include flex(row, center, center);
 		.boxLeftItem {
-			display: flex;
-			justify-content: center;
-			align-items: start;
-			flex-direction: column;
+			@include flex(column, center, center);
 			gap: 20px;
 			width: 75%;
 			height: auto;

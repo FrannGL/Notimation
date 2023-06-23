@@ -1,2 +1,13 @@
 $backgroundColor: linear-gradient(to right, #572ded, #528dff);
 $text: #ffff;
+$blue: #528dffcc;
+$light-blue: #528dff;
+$sweet-blue: #528dff4d;
+$orange: #ff5722;
+
+@mixin flex($direction, $justify, $align) {
+	display: flex;
+	flex-direction: $direction;
+	justify-content: $justify;
+	align-items: $align;
+}
